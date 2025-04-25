@@ -1,3 +1,4 @@
+import ChessLLD.ChessMain;
 import FactoryDesignPattern.FactoryDesignMain;
 import HashMap_Implementation.HashMapImplementation;
 import Threads.MainThread;
@@ -12,6 +13,7 @@ public class Main {
        // FactoryDesignMain.run();
         //TicTacToe.run();
         //HashMapImplementation.run();
-        TicTacToe.run();
+        //TicTacToe.run();
+        ChessMain.run();
     }
 }
