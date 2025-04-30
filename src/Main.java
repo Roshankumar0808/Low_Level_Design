@@ -1,6 +1,8 @@
 import ChessLLD.ChessMain;
 import FactoryDesignPattern.FactoryDesignMain;
 import HashMap_Implementation.HashMapImplementation;
+import SnakeFoodGame.SnakeGame;
+import SnakeFoodGame.SnakeGameEngine;
 import Threads.MainThread;
 import TicTacToe.TicTacToe;
 
@@ -14,6 +16,6 @@ public class Main {
         //TicTacToe.run();
         //HashMapImplementation.run();
         //TicTacToe.run();
-        ChessMain.run();
+        SnakeGameEngine.run();
     }
 }
